@@ -16,7 +16,7 @@ int main(void) {
 		bWorking = finder.FindNextFile(); //다음파일 존재유무
 		FileName = finder.GetFileName(); //파일 이름
 		CopyFile(Path + "Source\\" + FileName , Path + "Destination\\" + FileName, FALSE);
-
+		// Source폴더의 모든 파일을 Destination 폴더로 복사하기
 	}
 
 	finder.Close();
